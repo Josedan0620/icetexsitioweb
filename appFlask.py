@@ -1,7 +1,7 @@
 ﻿import pandas as pd
 import numpy as np
 import joblib
-import streamlit as st
+import sklearn 
 
 from flask import Flask,render_template,request
 app=Flask(__name__)
